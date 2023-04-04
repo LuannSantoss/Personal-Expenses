@@ -10,3 +10,6 @@ After installing Python, you can clone this repository on your machine using the
 After cloning the repository, you can run the <b>personal_expenses.py</b> file using the following command:
 
 `python personal_expenses.py`
+
+<p/>
+You can also check this project in Streamlit Share, on the following link: https://luansantos-personal-expenses.streamlit.app/

@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 # Load the environment variables
-deta_key = st.secrets["DETA_KEY"]
+deta_key = st.secrets["deta_key"]
 
 
 # Initialize with a project key

@@ -2,11 +2,8 @@ from deta import Deta
 import os
 from dotenv import load_dotenv
 
-with open('C:/Users/luann/Códigos/Projetos/Personal_expenses/.env.txt', 'r') as f:
-    for line in f:
-        if 'DETA_KEY' in line:
-            deta_key = line.split('=')[1].strip()
-
+# Load the environment variables
+deta_key = st.secrets["DETA_KEY"]
 
 
 # Initialize with a project key
